@@ -116,6 +116,10 @@ $bull->generateRows("Light_UserDatabase.lud_user", 50);
 History Log
 =============
 
+- 1.0.2 -- 2019-08-14
+
+    - fix doc
+    
 - 1.0.1 -- 2019-08-14
 
     - fix typo

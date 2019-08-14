@@ -26,7 +26,7 @@ class <span class="pl-k">LightBullsheetService</span>  {
 
 - Properties
     - protected [Ling\Light_Bullsheet\Bullsheeter\LightBullsheeterInterface[]](https://github.com/lingtalfi/Light_Bullsheet/blob/master/doc/api/Ling/Light_Bullsheet/Bullsheeter/LightBullsheeterInterface.md) [$bullsheeters](#property-bullsheeters) ;
-    - protected Ling\Light\ServiceContainer\LightServiceContainerInterface [$container](#property-container) ;
+    - protected [Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) [$container](#property-container) ;
     - protected bool [$silentMode](#property-silentMode) ;
     - protected array [$errors](#property-errors) ;
     - protected int [$errorCount](#property-errorCount) ;
@@ -35,7 +35,7 @@ class <span class="pl-k">LightBullsheetService</span>  {
     - public [__construct](https://github.com/lingtalfi/Light_Bullsheet/blob/master/doc/api/Ling/Light_Bullsheet/Service/LightBullsheetService/__construct.md)() : void
     - public [generateRows](https://github.com/lingtalfi/Light_Bullsheet/blob/master/doc/api/Ling/Light_Bullsheet/Service/LightBullsheetService/generateRows.md)(string $identifier, int $nbRows = 50) : void
     - public [registerBullsheeter](https://github.com/lingtalfi/Light_Bullsheet/blob/master/doc/api/Ling/Light_Bullsheet/Service/LightBullsheetService/registerBullsheeter.md)(string $identifier, [Ling\Light_Bullsheet\Bullsheeter\LightBullsheeterInterface](https://github.com/lingtalfi/Light_Bullsheet/blob/master/doc/api/Ling/Light_Bullsheet/Bullsheeter/LightBullsheeterInterface.md) $bullsheeter) : void
-    - public [setContainer](https://github.com/lingtalfi/Light_Bullsheet/blob/master/doc/api/Ling/Light_Bullsheet/Service/LightBullsheetService/setContainer.md)(Ling\Light\ServiceContainer\LightServiceContainerInterface $container) : void
+    - public [setContainer](https://github.com/lingtalfi/Light_Bullsheet/blob/master/doc/api/Ling/Light_Bullsheet/Service/LightBullsheetService/setContainer.md)([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
     - public [setSilentMode](https://github.com/lingtalfi/Light_Bullsheet/blob/master/doc/api/Ling/Light_Bullsheet/Service/LightBullsheetService/setSilentMode.md)(bool $silentMode) : void
     - public [getLastErrors](https://github.com/lingtalfi/Light_Bullsheet/blob/master/doc/api/Ling/Light_Bullsheet/Service/LightBullsheetService/getLastErrors.md)() : array
     - public [countLastErrors](https://github.com/lingtalfi/Light_Bullsheet/blob/master/doc/api/Ling/Light_Bullsheet/Service/LightBullsheetService/countLastErrors.md)() : int
