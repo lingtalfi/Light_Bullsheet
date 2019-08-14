@@ -79,7 +79,7 @@ So we register to the bullsheet service like this (from the service configuratio
 # ... some previous Light_UserDatabase configuration...
 # ... some previous Light_UserDatabase configuration...
 
-$bullsheeter.methods_collection:
+$bullsheet.methods_collection:
     -
         method: registerBullsheeter
         args:
@@ -116,6 +116,10 @@ $bull->generateRows("Light_UserDatabase.lud_user", 50);
 History Log
 =============
 
+- 1.0.1 -- 2019-08-14
+
+    - fix typo
+    
 - 1.0.0 -- 2019-08-14
 
     - initial commit
