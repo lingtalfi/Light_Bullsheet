@@ -41,14 +41,14 @@ Services
 
 This plugin provides the following services:
 
-- bullsheet
+- bullsheet (returns a LightBullsheetService instance)
 
 
 The service accepts bullsheeter instances. Each bullsheeter being its own stand-alone generator. 
 
 
 
-Here is the content of the service configuration file:
+Here is an example of the service configuration:
 
 ```yaml
 bullsheet:
@@ -100,7 +100,7 @@ And then we can call the bullsheeter like this:
 /**
  * @var $bull LightBullsheetService
  */
-$bull = $container->get("bullsheeter");
+$bull = $container->get("bullsheet");
 $bull->generateRows("Light_UserDatabase.lud_user", 50);
 
 ```
@@ -116,6 +116,10 @@ $bull->generateRows("Light_UserDatabase.lud_user", 50);
 History Log
 =============
 
+- 1.0.3 -- 2019-09-26
+
+    - fix README.md typo
+    
 - 1.0.2 -- 2019-08-14
 
     - fix doc
