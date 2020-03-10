@@ -1,13 +1,13 @@
 Light_Bullsheet
 ===========
-2019-08-14
+2019-08-14 -> 2020-03-10
 
 
 
 A service for the [Light](https://github.com/lingtalfi/Light) framework to help generate fake data for a database.
 
 
-This is a [Light framework plugin](https://github.com/lingtalfi/Light/blob/master/doc/pages/plugin.md).
+This is a [Light plugin](https://github.com/lingtalfi/Light/blob/master/doc/pages/plugin.md).
 
 This is part of the [universe framework](https://github.com/karayabin/universe-snapshot).
 
@@ -116,6 +116,10 @@ $bull->generateRows("Light_UserDatabase.lud_user", 50);
 History Log
 =============
 
+- 1.1.0 -- 2020-03-10
+
+    - add LightBullsheeterInterface->generateRows.options property
+    
 - 1.0.3 -- 2019-09-26
 
     - fix README.md typo
