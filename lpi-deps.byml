@@ -1,19 +1,27 @@
 1.0.0: 
-    - Ling:Light:0.69.16
-    - Ling:Bat:1.288
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
 
 1.0.1: 
-    - Ling:Light:0.69.16
-    - Ling:Bat:1.288
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
 
 1.0.2: 
-    - Ling:Light:0.69.16
-    - Ling:Bat:1.288
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
 
 1.0.3: 
-    - Ling:Light:0.69.16
-    - Ling:Bat:1.288
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
 
 1.1.0: 
-    - Ling:Light:0.69.16
-    - Ling:Bat:1.288
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
+
+1.1.1: 
+    - Ling:Light:0.69.17
+    - Ling:Bat:1.292
+
+1.1.2: 
+    - Ling:Light:0.69.18
+    - Ling:Bat:1.293
